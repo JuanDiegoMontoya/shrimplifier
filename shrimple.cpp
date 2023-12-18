@@ -300,7 +300,7 @@ std::string shrimplify(std::string input)
         {
             out += ":regional_indicator_";
             out += char_tolower(working[0]);
-            out += ":";
+            out += ": ";
         }
         else
         {
